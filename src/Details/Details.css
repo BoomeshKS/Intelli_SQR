@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lily+Script+One&family=Norican&display=swap');
+
+
+.Heading1{
+    font-family: "Norican", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 4em;
+    background: conic-gradient(from 100deg, aqua, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.option{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(235, 105, 127);
+}
+
+.display-name{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    font-family: "Lily Script One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, aqua, rgb(243, 6, 176));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.input1{
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.input2{
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input1, .label1{
+    margin-top: 60px;
+}
+.input2, .label2{
+    margin-top: 60px;
+}
+
+.label1{
+    margin-left: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.anc{
+    color: aliceblue;
+    float: right;margin-right: 40px;
+}
+.label2{
+    margin-left: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.save-btn, .edit-btn, .delete-btn{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    transition: 1s;
+    font-weight: bold;
+    background-color: aqua;
+    font-style: italic;
+}
+
+.save-btn:hover, .edit-btn:hover, .delete-btn:hover{
+    border-radius: 20px;
+    transform: scale(0.95);
+    background-color: black;
+    transition: 0.5s;
+    color: silver;
+
+}
+
